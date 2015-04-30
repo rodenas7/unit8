@@ -9,4 +9,7 @@ package unit8;
  */
 public class Persona {
 	private String nombre;
+	public String toString() {
+       		 return "hola";
+    	}
 }
