@@ -45,7 +45,7 @@ private ArrayList<Persona> personas = new ArrayList<Persona>();
     public static void main(String[] args) {
         Asignatura a1 = new Asignatura("Programacion");
         Asignatura a2 = new Asignatura("Entornos");
-        Asignatura a3 = new Asignatura("Sistemas");
+        Asignatura a3 = new Asignatura("Base de datos");
         Profesor p1 = new Profesor("Jaime","74512354N");
         Profesor p2 = new Profesor("Antonio","76592354H");
         Profesor p3 = new Profesor("Miguel","74402224Y");
