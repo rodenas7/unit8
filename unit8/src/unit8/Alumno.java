@@ -9,6 +9,12 @@ package unit8;
  *
  * @author Alvaro
  */
-public class Alumno {
-    
+public class Alumno extends Persona{
+
+    public Alumno(String nombre, String dni) {
+        super(nombre, dni);
+    }
+    public boolean esProfesor() {
+        return false;
+    }
 }

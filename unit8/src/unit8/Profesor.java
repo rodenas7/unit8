@@ -9,12 +9,13 @@ package unit8;
  *
  * @author Alvaro
  */
-public class Profesor {
-    int salario;
-    public void setSalario(int dn){
-        this.salario=dn;
+public class Profesor extends Persona{
+
+    public Profesor(String nombre, String dni) {
+        super(nombre, dni);
     }
-    public int getSalario(){
-        return salario;
+    public boolean esProfesor() {
+        return true;
     }
+    
 }
