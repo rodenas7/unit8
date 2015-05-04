@@ -10,5 +10,11 @@ package unit8;
  * @author Alvaro
  */
 public class Profesor {
-    
+    int salario;
+    public void setSalario(int dn){
+        this.salario=dn;
+    }
+    public int getSalario(){
+        return salario;
+    }
 }
